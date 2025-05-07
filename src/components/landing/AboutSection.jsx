@@ -88,7 +88,7 @@ const AboutSection = () => {
                   <p className="text-gray-600">Active Clients</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h4 className="font-bold text-3xl text-blue-600 mb-2">$100M+</h4>
+                  <h4 className="font-bold text-3xl text-blue-600 mb-2">₹100M+</h4>
                   <p className="text-gray-600">Assets Managed</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">

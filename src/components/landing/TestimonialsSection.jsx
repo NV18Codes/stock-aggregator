@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Quote } from 'lucide-react';
+import { Quote, User } from 'lucide-react';
 import { fetchTestimonials } from '../../services/mockApi';
 
 const TestimonialsSection = () => {
@@ -57,11 +57,7 @@ const TestimonialsSection = () => {
               >
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center">
-                    <img
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
+                    <User className="w-12 h-12 text-gray-400" />
                     <div className="ml-4">
                       <h3 className="font-semibold text-gray-900">{testimonial.name}</h3>
                       <p className="text-sm text-gray-600">

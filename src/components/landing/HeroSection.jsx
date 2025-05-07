@@ -85,11 +85,11 @@ const HeroSection = ({ onOpenLogin, onOpenSignup }) => {
         >
           <p className="text-blue-200 mb-6">Trusted by forward-thinking companies</p>
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
-            <div className="text-white/70 font-bold text-lg">ACME Corp</div>
-            <div className="text-white/70 font-bold text-lg">TechPro</div>
-            <div className="text-white/70 font-bold text-lg">Global Finance</div>
-            <div className="text-white/70 font-bold text-lg">FutureFund</div>
-            <div className="text-white/70 font-bold text-lg">Quantum Capital</div>
+            <div className="text-white/70 font-bold text-lg">company-1</div>
+            <div className="text-white/70 font-bold text-lg">company 2</div>
+            <div className="text-white/70 font-bold text-lg">company 3</div>
+            <div className="text-white/70 font-bold text-lg">company 4</div>
+            <div className="text-white/70 font-bold text-lg">company 5</div>
           </div>
         </motion.div>
       </div>

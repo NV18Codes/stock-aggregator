@@ -36,18 +36,18 @@ const PortfolioSummary = ({ portfolio }) => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
         <div className="bg-white p-4 rounded-lg shadow-sm">
           <p className="text-sm text-gray-500">Total Invested</p>
-          <p className="text-2xl font-bold text-gray-800">${portfolio.totalInvested.toLocaleString()}</p>
+          <p className="text-2xl font-bold text-gray-800">₹{portfolio.totalInvested.toLocaleString()}</p>
         </div>
         
         <div className="bg-white p-4 rounded-lg shadow-sm">
           <p className="text-sm text-gray-500">Current Value</p>
-          <p className="text-2xl font-bold text-gray-800">${portfolio.currentValue.toLocaleString()}</p>
+          <p className="text-2xl font-bold text-gray-800">₹{portfolio.currentValue.toLocaleString()}</p>
         </div>
         
         <div className="bg-white p-4 rounded-lg shadow-sm">
           <p className="text-sm text-gray-500">Total Profit/Loss</p>
           <p className={`text-2xl font-bold ${profitLossColor}`}>
-            {isPositive ? '+' : ''}${Math.abs(portfolio.profitLoss).toLocaleString()}
+            {isPositive ? '+' : ''}₹{Math.abs(portfolio.profitLoss).toLocaleString()}
           </p>
         </div>
       </div>

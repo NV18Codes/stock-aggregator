@@ -69,7 +69,7 @@ const PricingSection = ({ onOpenSignup }) => {
                   <p className="text-gray-600 mb-6">{plan.description}</p>
                   
                   <div className="flex items-baseline mb-8">
-                    <span className="text-4xl font-bold text-gray-900">${plan.price}</span>
+                    <span className="text-4xl font-bold text-gray-900">₹{plan.price}</span>
                     <span className="text-gray-600 ml-2">/month</span>
                   </div>
                   
